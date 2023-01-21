@@ -63,7 +63,7 @@ if dir:
 
 
 # because we need to decrypt file focus on .L0v3sh3 extension here is the code
-includeExtension = ['.l0v3sh3'] # CHANGE THIS make sure all is lower case
+includeExtension = ['.tga'] # CHANGE THIS make sure all is lower case
 
 for item in scanRecurse(directory): 
     filePath = Path(item)
