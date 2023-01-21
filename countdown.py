@@ -24,7 +24,7 @@ def countdown(count):
         root.after(1000, countdown, '{}:{}:{}'.format(hour, minute, second)) 
 
 root = tk.Tk()
-root.title('L0v3sh3 Ransomware')
+root.title('The Gray Area (thegrayarea.tech) Ransomware')
 root.geometry('500x300')
 root.resizable(False, False)
 label1 = tk.Label(root, text='Your data is under rest, please don\'t pay me,\nthis just simulation !!\n\n', font=('calibri', 12,'bold'))
@@ -34,5 +34,4 @@ label.pack()
 
 # call countdown first time    
 countdown('01:30:00')
-# root.after(0, countdown, 5)
 root.mainloop()
